@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js", 
+    "client": "cd frontend && npm run start",
+    "dev": "cd backend && node index.js"
   },
   "author": "",
   "license": "ISC",
